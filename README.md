@@ -25,7 +25,7 @@ Code framework description:
   
   ```
   ##model address：line 8
-  embedding_model_address = "" ## "shibing624/text2vec-base-chinese"
+  embedding_model_address = "" ## "shibing624/text2vec-base-chinese",Download the local address where the model is saved
   llm_service_url_address = "" ## fschat address, http://*****:21002
   ```
 
