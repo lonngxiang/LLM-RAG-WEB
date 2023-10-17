@@ -12,7 +12,7 @@ Technology stack:
 
 ## 2、Running steps:
 
-1)Modify configuration
+1) Modify configuration
 
   Add embedding model local address to the configs.py file
   
@@ -21,7 +21,7 @@ Technology stack:
   embedding_model_address = "" ## "shibing624/text2vec-base-chinese"
   ```
 
-2)Deploy the model
+2) Deploy the model
 
 model deploy : faschat
   run:
