@@ -2,7 +2,7 @@
 LLM Model connection LangChain RAG Connection to Streamlit Web
 
 
-1、Brief description
+## 1、Brief description
 
 Technology stack:
 
@@ -10,7 +10,7 @@ Technology stack:
 - File processing + faiss: langchain
 - Visual interface: streamlit
 
-2、Running steps:
+## 2、Running steps:
 
 1)Modify configuration
   Add embedding model local address to the configs.py file
