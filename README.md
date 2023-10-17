@@ -13,6 +13,7 @@ Technology stack:
 ## 2、Running steps:
 
 1)Modify configuration
+
   Add embedding model local address to the configs.py file
   
   '''
