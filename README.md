@@ -10,6 +10,13 @@ Technology stack:
 - File processing + faiss: langchain
 - Visual interface: streamlit
 
+Code framework description:
+
+- web.py: Project entry, web page
+- model. py: interconnects with the model interface
+- split.py: document splitting
+- configs.py: configures
+
 ## 2、Running steps:
 
 1) Modify configuration
