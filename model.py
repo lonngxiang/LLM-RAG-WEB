@@ -9,6 +9,7 @@ calling interface : requests.post
 
 import requests
 
+import configs
 
 def get_response(text):
     headers = {"Content-Type": "application/json"}
@@ -19,6 +20,6 @@ def get_response(text):
         "max_new_tokens": 8000,
     }
     print("pload",pload)
-    response = requests.post("http://*****:21002/worker_generate_stream", headers=headers, json=pload, stream=True)
+    response = requests.post(configs.llm_service_url_address + "/worker_generate_stream", headers=headers, json=pload, stream=True)
     # print(response.text)
     return response
