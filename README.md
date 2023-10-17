@@ -16,7 +16,7 @@ Technology stack:
   Add embedding model local address to the configs.py file
   
   '''
-  ## model address
+  ##model address
   embedding_model_address = "" ## "shibing624/text2vec-base-chinese"
   '''
 
@@ -32,5 +32,5 @@ model deploy : faschat
   streamlit run  web.py 
 
 
-
+![alt text](https://github.com/lonngxiang/LLM-RAG-WEB/blob/main/web.png)
 
