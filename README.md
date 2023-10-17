@@ -16,10 +16,10 @@ Technology stack:
 
   Add embedding model local address to the configs.py file
   
-  `
+  ```
   ##model address
   embedding_model_address = "" ## "shibing624/text2vec-base-chinese"
-  `
+  ```
 
 2)Deploy the model
 
