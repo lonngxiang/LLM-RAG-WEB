@@ -31,9 +31,10 @@ Code framework description:
 
 2) Deploy the model
 
-model deploy : faschat
+model deploy : faschat(Reference: https://github.com/lm-sys/FastChat)
   run:
     1.python -m fastchat.serve.controller
+    
     2.python -m fastchat.serve.model_worker --model-path ./chatglm2-6b --num-gpus 2 --host=0.0.0.0 --port=21002
 
 3) Run the web
